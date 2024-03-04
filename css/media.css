@@ -1,0 +1,263 @@
+@media all and (max-width: 1200px) {
+  nav {
+    display: none;
+  }
+  main {
+    display: none;
+  }
+
+  .error {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .error {
+    display: none;
+  }
+
+  body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  nav,
+  main {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .circle {
+    height: 150vh;
+    width: 150vh;
+    position: relative;
+    top: 164%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    z-index: 0;
+  }
+
+  .strip {
+    transform-origin: 0% -25%;
+  }
+
+  .active {
+    font-weight: 700;
+  }
+
+  .sec-str {
+    z-index: 1;
+  }
+
+  .sec-str div {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    text-align: right;
+    width: 15vh;
+    height: fit-content;
+    margin-left: -170px;
+  }
+  .sec-str div:hover {
+    font-size: 0.8rem;
+  }
+
+  .active {
+    font-size: 0.8rem;
+  }
+
+  .active-mobile div {
+    text-align: center;
+    transform: rotate(90deg);
+    position: relative;
+    right: -5%;
+    margin-left: -25%;
+    width: fit-content;
+  }
+
+  .nav-circle-container {
+    display: none;
+  }
+
+  .content {
+    /* background-color: red; */
+    width: 100vw;
+    height: 90vh;
+    padding: 2vh;
+    padding-top: 5vh;
+    justify-content: start;
+    top: 45%;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+    align-content: end;
+  }
+
+  .main-container img {
+    width: 25vh;
+    height: 25vh;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .primary-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom: -50px;
+  }
+
+  .str2,
+  .str3,
+  .str4,
+  .str5,
+  .str6 {
+    transform-origin: 0% 30%;
+  }
+
+  .nav-bullet {
+    display: none;
+  }
+
+  .about-container {
+    gap: 0;
+    line-height: 2.5vh;
+  }
+
+  #personal_details {
+    display: block;
+  }
+
+  .mini-edu-container {
+    display: block;
+    overflow: auto;
+    height: 250px;
+  }
+
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .mini-education p {
+    margin-block: 10px;
+  }
+
+  .exp-points {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 200px;
+  }
+
+  .card-container {
+    display: block;
+    overflow: auto;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .skil-container h3 {
+    font-size: 1.8rem;
+  }
+
+  .ski-card {
+    width: 100%;
+    display: block;
+    text-align: left;
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .ski-card img {
+    display: none;
+  }
+
+  .ski-card h4 {
+    margin: 0;
+  }
+
+  .ski-main {
+    overflow: auto;
+    height: 250px;
+  }
+
+  .skill {
+    margin-block: 10px !important;
+  }
+
+  .project-section {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 400px;
+  }
+
+  .card {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    display: none;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-body p {
+    margin-bottom: 10px;
+  }
+
+  .cont-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-row {
+    gap: 0;
+  }
+
+  .cont-container input,
+  .cont-container textarea {
+    width: 100% !important;
+  }
+
+  .cont-container textarea {
+    height: 175px;
+  }
+
+  footer {
+    margin-top: 25px !important;
+    text-align: center;
+  }
+
+  footer div {
+    justify-content: center;
+  }
+
+  footer p a {
+    display: block;
+  }
+}

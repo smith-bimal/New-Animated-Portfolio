@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="circle">
+        <div class="strip str1">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str active active-mobile"><div>MAIN</div></div>
+        </div>
+        <div class="strip str2">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str"><div>ABOUT</div></div>
+        </div>
+        <div class="strip str3">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str"><div>EDUCATION</div></div>
+        </div>
+        <div class="strip str4">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str"><div>SKILLS</div></div>
+        </div>
+        <div class="strip str5">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str"><div>PROJECTS</div></div>
+        </div>
+        <div class="strip str6">
+          <div class="first-str">
+            <div class="nav-bullet"></div>
+          </div>
+          <div class="sec-str">
+            <div>CONTACT ME</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-circle-container">
+        <div class="mncircle active"></div>
+        <div class="mncircle"></div>
+        <div class="mncircle"></div>
+        <div class="mncircle"></div>
+        <div class="mncircle"></div>
+        <div class="mncircle"></div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-container content show-page">
+        <div class="hero-text">
+          <h1>GOLAK BIHARI <br />BEMAL</h1>
+          <br />
+          <div>I am a <span id="title"></span></div>
+          <button class="primary-btn">
+            <a
+              href="https://drive.google.com/file/d/1VRpbMOB6jQTkWugBIDlTDUfyBF6YVGPY/view?usp=sharing"
+              >Download CV</a
+            >
+          </button>
+        </div>
+        <img src="images/Hero_image.jpeg" alt="hero-image" />
+      </div>
+
+      <div class="about-container content">
+        <h2>So, Who am I ?</h2>
+        <p>
+          I am an aspiring web developer student, deeply immersed in the world
+          of HTML, CSS, and JavaScript. Eager to master both front-end and
+          back-end technologies, I am driven by a relentless curiosity and a
+          passion for creating user-centric digital experiences. Through
+          hands-on projects and coursework, I am refining my skills to
+          contribute to the dynamic field of web development. With a commitment
+          to staying at the forefront of technological advancements, I am
+          excited about transforming my passion into impactful solutions that
+          push the boundaries of innovation in the digital realm.
+        </p>
+
+        <div id="personal_details">
+          <ul>
+            <li>
+              <span class="personal_details_heading">Name:</span> Golak Bihari
+              Bemal
+            </li>
+            <li>
+              <span class="personal_details_heading">Degree:</span> Master's
+              (pursuing)
+            </li>
+            <li>
+              <span class="personal_details_heading">Phone:</span>
+              +91-7008421722
+            </li>
+            <li>
+              <span class="personal_details_heading">Address:</span> Sikharpur,
+              Mahanadi Vihar, Cuttack, Odisha, 753004
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <span class="personal_details_heading">Birthday:</span> 23<sup
+                >rd</sup
+              >
+              Sept, 1999
+            </li>
+            <li>
+              <span class="personal_details_heading">Email:</span>
+              golokbihareebeemal@gmail.com
+            </li>
+            <li>
+              <span class="personal_details_heading">Experience:</span> Fresher
+            </li>
+            <li>
+              <span class="personal_details_heading">Freelance:</span> Available
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/smith-bimal"
+            target="_blank"
+            class="btn btn-outline-light rounded-pill"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/golak-bihari-bemal-8264bb23b/"
+            target="_blank"
+            class="btn btn-outline-light rounded-pill"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/smithbimal/"
+            target="_blank"
+            class="btn btn-outline-light rounded-pill"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/iamsmithbimal/"
+            target="_blank"
+            class="btn btn-outline-light rounded-pill"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://twitter.com/iamsmithbimal"
+            target="_blank"
+            class="btn btn-outline-light rounded-pill"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="edu-exp-container content">
+        <div class="edu-container">
+          <h2>My Educations</h2>
+          <div class="mini-edu-container">
+            <div class="mini-education">
+              <h3>MCA (CS)</h3>
+              <h4>Jain University, Bangalore <span>| 2022 - 2024</span></h4>
+              <p>
+                Academic Achievement in Computer Science As a full-time computer
+                science student, I recently received an impressive exam score,
+                resulting in a 9.02 CGPA.
+              </p>
+            </div>
+
+            <div class="mini-education">
+              <h3>B.Tech (CS)</h3>
+              <h4>
+                GIET, BBSR (BPUT)
+                <span>| 2016 - 2020</span>
+              </h4>
+              <p>
+                I attained an overall score of 7.70 while pursuing a Bachelor's
+                Degree in Computer Science.
+              </p>
+            </div>
+
+            <div class="mini-education">
+              <h3>Intermediate (Science)</h3>
+              <h4>Pragati +2 Science College <span>| 2014 - 2016</span></h4>
+              <p>
+                Achieved an overall score of 6.40 during the pursuit of
+                Intermediate (12th) in Science.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="exp-container">
+          <div class="edu-container">
+            <h2>My Experience</h2>
+            <div class="mini-exp-container">
+              <div class="mini-education">
+                <h3>Technical Support Engineer</h3>
+                <h4>
+                  Concentrix Services India Pvt Ltd
+                  <span>| May 2022 - Sep 2023</span>
+                </h4>
+                <div class="exp-points">
+                  <div class="exp1">
+                    <ul>
+                      <li>
+                        Addressed and resolved customer queries, issues, and
+                        concerns. Provided timely solutions, enhancing overall
+                        satisfaction.
+                      </li>
+
+                      <li>
+                        Analyzed technical problems, diagnosed issues, and
+                        provided effective solutions. Contributed to long-term
+                        customer loyalty and retention.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="exp2">
+                    <ul>
+                      <li>
+                        Collaborated with cross-functional teams to resolve
+                        complex technical issues. Improved ability to work in a
+                        team environment.
+                      </li>
+
+                      <li>
+                        Developed and maintained a knowledge base, improving
+                        support processes. Delivered clear technical guidance,
+                        ensuring customer understanding and satisfaction.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skil-container content">
+        <h2>My Expertise</h2>
+        <div class="card-container">
+          <div class="ski-card">
+            <img src="images/front_dev.png" alt="front-end developer" />
+            <h4>Front-End Developer</h4>
+            <p>
+              Designing interactive and responsive websites with HTML, CSS, and
+              JavaScript for seamless user experiences.
+            </p>
+          </div>
+          <div class="ski-card">
+            <img src="images/web_des.png" alt="web designer" />
+            <h4>Web Designer</h4>
+            <p>
+              Blending artistry and functionality to create visually stunning
+              and user-friendly websites that captivate and engage audiences.
+            </p>
+          </div>
+          <div class="ski-card">
+            <img src="images/ui_dev.png" alt="ui developer" />
+            <h4>UI Developer</h4>
+            <p>
+              Transforming wireframes and mockups into intuitive user interfaces
+              that enhance user experience and streamline interactions.
+            </p>
+          </div>
+        </div>
+
+        <h3>Skills</h3>
+        <div class="row align-items-center gap-lg-5 ski-main">
+          <div class="col-md-4">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">HTML</h6>
+                <h6 class="font-weight-bold">85%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 85%; transition: width 1s ease"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">CSS</h6>
+                <h6 class="font-weight-bold">75%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Java</h6>
+                <h6 class="font-weight-bold">50%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 50%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Git & GitHub</h6>
+                <h6 class="font-weight-bold">40%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 40%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Javascript</h6>
+                <h6 class="font-weight-bold">60%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 60%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Python</h6>
+                <h6 class="font-weight-bold">40%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 40%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Web designing</h6>
+                <h6 class="font-weight-bold">85%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 85%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Figma</h6>
+                <h6 class="font-weight-bold">55%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 55%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-container content">
+        <h2>Recent Projects</h2>
+        <div class="project-section">
+          <div class="card rounded-4" style="width: 18rem">
+            <img src="images/blog-1.jpg" class="card-img-top rounded-top-4" />
+            <div class="card-body">
+              <h5 class="card-title">To-Do List</h5>
+              <p class="card-text">
+                A JavaScript to-do list app with local server integration for
+                enhanced data management and offline functionality.
+              </p>
+              <a
+                href="https://github.com/smith-bimal/My-Projects/tree/main/Projects/12.%20To-Do%20List"
+                class="btn btn-light rounded-pill"
+                >Check &gt;</a
+              >
+            </div>
+          </div>
+
+          <div class="card rounded-4" style="width: 18rem">
+            <img src="images/blog-2.jpg" class="card-img-top rounded-top-4" />
+            <div class="card-body">
+              <h5 class="card-title">Live Weather Forecast</h5>
+              <p class="card-text">
+                A weather forecaster app using JS and API integration for
+                real-time weather updates and location-based forecasts.
+              </p>
+              <a
+                href="https://github.com/smith-bimal/My-Projects/tree/main/Projects/14.%20Weather%20App"
+                class="btn btn-light rounded-pill"
+                >Check &gt;</a
+              >
+            </div>
+          </div>
+
+          <div class="card rounded-4" style="width: 18rem">
+            <img src="images/blog-3.jpg" class="card-img-top rounded-top-4" />
+            <div class="card-body">
+              <h5 class="card-title">Interactive Cards</h5>
+              <p class="card-text">
+                A responsive card design using HTML, CSS, and JavaScript for a
+                visually appealing and adaptable user interface across devices.
+              </p>
+              <a
+                href="https://github.com/smith-bimal/My-Projects/tree/main/Projects/13.%20Responsive%20Cards"
+                class="btn btn-light rounded-pill"
+                >Check &gt;</a
+              >
+            </div>
+          </div>
+        </div>
+        <p>
+          <div class="inline">Dark-Light Button,</div>
+          <div class="inline">Tic-Tac-Toe Game,</div>
+          <div class="inline">Rock Paper Scissor Game,</div>
+          And more...
+        </p>
+        <a
+          href="https://github.com/smith-bimal/My-Projects"
+          class="btn btn-secondary rounded-pill"
+          >GitHub Repository</a
+        >
+        <p></p>
+      </div>
+
+      <div class="cont-container content">
+        <h2>Contact Me</h2>
+        <form class="align-items-center justify-content-center">
+          <div class="row align-items-center">
+            <div class="form-row">
+              <input
+                type="text"
+                required
+                placeholder="Your Name"
+                class="col-4 border border-1 rounded-pill fs-6"
+              />
+              <input
+                type="email"
+                required
+                placeholder="Your Email"
+                class="col-4 border border-1 rounded-pill fs-6"
+              />
+            </div>
+          </div>
+          <input
+            type="text"
+            required
+            class="col-8 rounded-pill border border-1 fs-6"
+            id="subject"
+            placeholder="Subject"
+          />
+
+          <textarea
+            name="msg"
+            id="msgbox"
+            class="col-8 p-2 fs-6"
+            rows="8"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <div class="submit-btn">
+            <button
+              class="btn btn-outline-secondary mt-2 rounded-pill"
+              type="submit"
+              id="sendMessageButton"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+
+        <footer>
+          <div class="d-flex align-items-center mt-5">
+            <a class="text-secondary fs-6" href="#">Privacy</a>
+            <span class="px-3">|</span>
+            <a class="text-secondary fs-6" href="#">Terms</a>
+            <span class="px-3">|</span>
+            <a class="text-secondary fs-6" href="#">FAQs</a>
+            <span class="px-3">|</span>
+            <a class="text-secondary fs-6" href="#">Help</a>
+          </div>
+          <p class="mt-3 fs-6 text-secondary">
+            &copy; All Rights Reserved. Designed by
+            <a href="#" class="text-dark fs-6 text-decoration-none"
+              >Smith Bimal.</a
+            >
+          </p>
+        </footer>
+      </div>
+    </main>
+
+    <div class="error"> <p>This website will only work on mobile device and big screen device only.</p></div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
